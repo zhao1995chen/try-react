@@ -25,6 +25,19 @@
   }
   ```
 
+# JS 筆記
+
+- 如果條件判斷不需要 false 可以直接用 `&&` 取代
+  ```jsx
+  export default function App() {
+    let isLoggedIn = false, showIntro = true
+    return (
+      <>
+        { showIntro && <Intro /> }
+      </>
+  }
+  ```
+
 ## Tools
 
 - [HTML -> JSX 轉換器](https://transform.tools/html-to-jsx)
