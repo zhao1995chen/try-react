@@ -1,5 +1,7 @@
 # React 筆記
 
+## Quick Start
+
 - React component 須首字大寫命名
   ```js
   function MyButton() {
@@ -24,6 +26,14 @@
     )
   }
   ```
+
+## React Hook
+
+### `useState`
+
+- 用於狀態管理
+- 會回傳狀態及 set function
+- 當 set function 被呼叫時，狀態會被更新為傳入的參數值，畫面會重新渲染
 
 # JS 筆記
 
