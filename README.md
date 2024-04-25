@@ -4,7 +4,7 @@
 
 - React component 須首字大寫命名
   ```js
-  function MyButton() {
+  function Button() {
     return (
     )
   }
@@ -14,7 +14,7 @@
 - React 在編譯 JSX 時會將大括號中的內容視為 JS 讀取
 
   ```jsx
-  function MyButton() {
+  function Button() {
     const [count, setCount] = useState(0)
 
     return (
@@ -39,7 +39,7 @@
 
 ```jsx
 // App.jsx
-import MyButton from './components/Button'
+import Button from './components/Button'
 
 export default function App() {
   const [count, setCount] = useState(0)
